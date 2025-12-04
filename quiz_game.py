@@ -2,7 +2,7 @@
 
 
 import random
-# from playsound import playsound
+from playsound import playsound
 
 # ----- Quiz Questions -----
 questions = [
@@ -53,7 +53,7 @@ print("Your final score is:", score, "/", len(questions))
 
 if score == len(questions):
     print("7 Crores Jackpot! 🎉🏆")
-    # playsound("seven_crore_amitab.mp3")
+    playsound("seven_crore_amitab.mp3")
 elif score >= 2:
     print("Good! Keep learning.")
 else:
